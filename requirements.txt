@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pandas
+numpy
+scikit-learn
+sentence-transformers
+transformers
+faiss-cpu
+joblib
+pytest
+httpx
