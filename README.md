@@ -24,7 +24,7 @@ pip install -r requirements.txt
 
 ## 🧠 Step 2: Train the Predictive Model
 
-Before running the API for the first time, you must train the Random Forest model and generate the necessary baseline statistics for drift monitoring.
+Before running the API for the first time, you must train the Random Forest model or a Gradient Boost Regressor model and generate the necessary baseline statistics for drift monitoring.
 
 **Run the training script:**
 python train.py

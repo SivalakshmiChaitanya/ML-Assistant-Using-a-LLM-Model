@@ -17,6 +17,7 @@ class ModelMonitor:
             return
 
         z_score = abs((value - mean) / std)
+        
 
         if z_score > 3:
             print(f"WARNING: Possible drift detected in {name}")
@@ -26,3 +27,5 @@ class ModelMonitor:
         self.check_feature("actual_price", features["actual_price"])
         self.check_feature("rating", features["rating"])
         self.check_feature("rating_count", features["rating_count"])
+
+        
