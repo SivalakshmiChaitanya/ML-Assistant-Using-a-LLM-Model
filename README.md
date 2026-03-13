@@ -96,4 +96,4 @@ Once the server is running (usually at `http://127.0.0.1:8000`), you can test th
 This project includes an automated integration test suite to verify all endpoints are functioning correctly. 
 
 To run the tests, execute the following command in your terminal:
-pytest test_app.py -v
+pytest test.py -v
